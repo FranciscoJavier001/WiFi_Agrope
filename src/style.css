@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #f5f5f0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 4vh 0;
+  text-align: center;
+}
+h1 {
+  margin: 0 0 4vh;
+}
+.btn-stack {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.btn {
+  width: 100%;
+  height: 15vh;
+  max-height: 140px;
+  font-size: 1.2rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.green { background-color: #4CAF50; }
+.yellow { background-color: #FFEB3B; color: black; }
+.red { background-color: #F44336; }
+.black { background-color: #000; }
+
+.wifi-icon {
+  width: 120px;
+  margin-bottom: 20px;
+}
